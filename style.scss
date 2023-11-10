@@ -1,0 +1,49 @@
+html {
+    font-size: 100%;
+  }
+  body {
+    background-color: #ffffff;
+    color: #24292E;
+    font-size: 0.875rem;
+    font-family: Arial, "Hiragino Sans" , "Hiragino Kaku Gothic ProN",  "Meiryo" , sans-serif;
+  }
+  img {
+    max-width: 100%;
+  }
+  /* サイト全体のコンテンツ幅を設定 */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  /* 中のコンテンツ部分の最大幅を設定 */
+  .inner {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /*----------------------------------------
+  ヘッダー
+  ------------------------------------------*/
+  #header {
+    position: relative;
+    .meintitle  {
+        font-size: 2.25rem;
+        position: absolute;
+        top:4%;
+        left:88%;
+        width: 100px;
+        color: #ffffff;
+        background-color: #2A2A2A;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+    }
+    .header-pic {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    
+  }
